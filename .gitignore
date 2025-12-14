@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+multi_ai_agent_sonar.egg-info/
+logs/
+.env
