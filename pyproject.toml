@@ -1,7 +1,20 @@
 [project]
 name = "multi-ai-agent-sonar"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi Agent LLMops using LangGraph and LangChain"
 readme = "README.md"
+authors = [
+    { name = "Sabbha Mondal", email = "sabbha.power1@gmail.com" }
+]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "fastapi>=0.124.4",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.0",
+    "langchain-groq>=1.1.1",
+    "langgraph>=1.0.5",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.52.1",
+    "uvicorn>=0.38.0",
+]
